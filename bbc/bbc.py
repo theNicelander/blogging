@@ -16,4 +16,3 @@ class BBC:
 
     def get_title(self):
         return self.soup.find(class_="story-body__h1").text
-        
